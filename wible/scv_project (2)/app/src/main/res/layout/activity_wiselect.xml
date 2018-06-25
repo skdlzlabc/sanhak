@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+
+    <ImageView
+        android:src="@drawable/wifi_label"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/mylightblue"
+        android:layout_gravity="top"
+        />
+
+    <ImageView
+        android:id="@+id/wf1_off"
+        android:src="@drawable/wf1_off"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:visibility="gone"
+        android:onClick="onClick"
+        android:layout_marginBottom="3dp"
+        />
+    <ImageView
+        android:id="@+id/wf1_on"
+        android:src="@drawable/wf1_on"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:onClick="onClick"
+        android:visibility="gone"
+        android:layout_marginBottom="3dp"
+        />
+    <ImageView
+        android:src="@drawable/top"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mytransblue"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/wf2_off"
+        android:src="@drawable/wf2_off"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:visibility="gone"
+        android:onClick="onClick"
+        android:layout_marginBottom="3dp"
+        />
+    <ImageView
+        android:id="@+id/wf2_on"
+        android:src="@drawable/wf2_on"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:onClick="onClick"
+        android:visibility="gone"
+        android:layout_marginBottom="3dp"
+        />
+    <ImageView
+        android:src="@drawable/top"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mytransblue"
+        />
+
+
+    <ImageView
+        android:id="@+id/wf3_off"
+        android:src="@drawable/wf3_off"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:visibility="gone"
+        android:onClick="onClick"
+        android:layout_marginBottom="3dp"
+        />
+    <ImageView
+        android:id="@+id/wf3_on"
+        android:src="@drawable/wf3_on"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:onClick="onClick"
+        android:visibility="gone"
+        android:layout_marginBottom="3dp"
+        />
+    <ImageView
+        android:src="@drawable/top"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mytransblue"
+        />
+
+    </LinearLayout>
+
+
+
+
+   <!-- <LinearLayout
+
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        <TextView android:id="@+id/it1x"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:onClick="wificl"
+            android:text="LED"
+            android:textSize="40dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/line"/>
+        <TextView android:id="@+id/hux"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Humidifier"
+            android:paddingLeft="20dp"
+            android:textSize="40dp"
+            android:onClick="wificl"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/line"/>
+        <TextView android:id="@+id/airx"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Air-conditioner"
+            android:paddingLeft="20dp"
+            android:textSize="40dp"
+            android:onClick="wificl"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/line"/>
+
+    </LinearLayout>
+-->
